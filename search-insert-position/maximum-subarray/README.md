@@ -26,3 +26,5 @@ EDIT: There is a much neater way of solving this problem without using extra spa
 Use a max variable to keep track as you iterate through the array, and another sum variable to accumulate elements along the way.
 
 If the sum turns out to be negative, clear the sum because adding anything to a negative sum will only yield a lower sum. If the sum is greater than the max, update the max.
+
+LATER EDIT: Looked up online and found the Kadane's Algorithm. Added to the solution as well.
